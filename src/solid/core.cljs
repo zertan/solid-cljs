@@ -3,7 +3,6 @@
   (:require ["solid-js" :as solid]
             ["solid-js/web" :as sw]
             ["solid-js/store" :as store]
-            ["solid-js/h" :as h]
             [solid.compiler :as sc]))
 
 (defn create-element [tag & args]
